@@ -1,0 +1,151 @@
+.main{
+    margin: 50px;
+}
+.container{
+display: flex;
+justify-content: space-around;
+/* position: absolute; */
+}
+.container .img img{
+    /* size: 150%;
+     */
+     height: 250px;
+     width: 300px;
+     padding-top: 90px;
+     border-radius: 100px;
+}
+.vl {
+    border-left: 6px solid rgb(255, 174, 82);
+    height: 150px;
+    position: relative;
+    top: 140px;
+  }
+.namee{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 174, 82);
+    position: relative;
+    top: 160px;
+    right: 40px;
+}
+.form form{
+    background-image: linear-gradient(to top , rgb(20, 20, 20),rgba(255,0,0,0), rgb(20, 20, 20));
+    margin-top: -20px;
+    padding: 20px 30px;
+    color: rgb(15, 15, 15);
+    
+}
+.show{
+    font-size: 20px;
+   font-weight: bold;
+   color: beige;
+   padding: 10px;
+}
+.or{
+    padding-bottom:10px ;
+}
+.c1{
+position: relative;
+left: 20px;
+text-transform: capitalize;
+}
+input{
+    /* background-color: rgb(193, 196, 196); */
+    width: 210px;
+    
+    border: 1px solid black;
+    background: transparent;
+}
+input:focus{
+    outline: none;
+}
+span{
+    color:rgb(255, 174, 82) ;
+}
+.button{
+    background: transparent;
+    border-color: rgb(137, 127, 127);
+    color: beige;
+    padding: 8px;
+    border-radius:10px ;
+    text-transform: capitalize;
+}
+.button:hover{
+    background-color: rgb(29, 28, 28);
+}
+.pr{
+ color: beige;
+ padding-top: 10px;
+ position: relative;
+ left: 40px;
+ font-size: small;
+}
+.msg{
+    padding: 20px 200px;
+    text-align: center;
+    background-color: rgb(216, 215, 215);
+
+}
+.msg .k1{
+    color: rgb(33, 130, 241);
+    font-size: xx-large;
+}
+.msg p{
+    word-spacing: 1ch;
+}
+.d1{
+    margin: 60px;
+}
+.i1{
+    display: flex;
+}
+.i1 .m2{
+    position: relative;
+    left: 60px;
+}
+.i1 img{
+    padding:0 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.w1{
+    position: relative;
+    top: 20px;
+    right: 10px;
+
+}
+.w2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.d2{
+    background-color:rgb(33, 130, 241) ;
+    padding: 20px;
+}
+.y1{
+    display: flex;
+}
+.y1 div{
+    color: aliceblue;
+    margin-left: 140px;
+    font-size: larger;
+}
+.y1 button{
+    background-color: rgb(255, 174, 82);
+    border: none;
+    padding: 10px 30px;
+    margin-left: 70px;
+    margin-top: -5px;
+    color: azure;
+    text-transform: capitalize;
+}
+.footer{
+    /* background-color: rgb(177, 255, 248); */
+    background-image: linear-gradient(to top , rgb(20, 20, 20),rgba(255,0,0,0));
+    margin-top: -7px;
+    padding: 30px;
+    text-align: center;
+}
