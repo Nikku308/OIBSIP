@@ -1,0 +1,459 @@
+body{
+    background: none;
+    size: 100%;
+}
+.container{
+    background-image: url(/img/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: aliceblue;
+    padding: 10px 100px;
+    margin: -10px;
+}
+
+.header1{
+    background-color: rgb(24, 23, 23);
+    margin:-10px -100px;
+    padding: 10px 100px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.header1,.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.header1 .logo i{
+     padding: 5px;
+}
+.header1 .logo a{
+color: white;
+text-decoration: none;
+}
+.header1 .logo #ig:hover{
+    color: darkred;
+}
+.header1 .logo #ln:hover{
+    color: blue;
+}
+.header1 .logo1{
+    margin-right: 200px;
+}
+.header1 .logo1 i{
+color: orange;
+padding: 5px;
+/* margin-left: -600px; */
+}
+.header2{
+    background-color: rgb(14, 13, 13) ;
+    padding: 10px 100px;
+    margin:30px -100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.head1 .name{
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.head2{
+    margin-right: 200px;
+}
+.head2 a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    
+}
+.head2 a:hover{
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+hr{
+    margin-top: 50px;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    background-color: rgba(14, 13, 13, 0.2) ;
+    margin: -100px -100px;
+    padding: 100px;
+    padding-bottom: 190px;
+    /* z-index: 0; */
+}
+.home .p1{
+    padding: 150px 0px 0px 0;
+    text-transform: capitalize;
+    word-spacing: 0.2cm;
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-left: 300px;
+
+}
+.home .p1 span{
+    font-size: 50px;
+    color: orange;
+}
+.home .p2{
+padding-top:30px ;
+font-size: xx-large;
+word-spacing: 0.2cm;
+text-transform: capitalize;
+margin-left: 430px;
+margin-top: 10px;
+}
+.home button{
+margin-left: 470px;
+margin-top: 30px;
+margin-bottom: 100px;
+padding: 10px;
+background-color: rgb(83, 83, 83);
+border: none;
+text-transform: capitalize;
+font-weight: bold
+;
+}
+.home button:hover{
+    background-color: rgb(41, 41, 41);
+    color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    background-color: white;
+    margin: -70px -10px;
+    color: black;
+    padding: 50px 150px 100px;
+}
+.about h1{
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1cm;
+    padding-bottom: 50px;
+}
+.about1 div,p{
+    font-size: 0.5cm;
+    word-spacing: 0.2cm;
+    text-indent: 2cm;
+    padding: 0px 100px 50px 100px;
+}
+.about1 div{
+    text-align:justify;
+}
+.about1 p{
+    text-align:center;
+}
+.line{
+    width: 300px;
+    height: 5px;
+    background-color: orange;
+    margin-top: -10%;
+    margin-left: 40%;
+    margin-bottom: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.con{
+    margin: -10px;
+    padding:100px 180px;
+    background-color: white;
+}
+.project h1{
+    color: orange;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1cm;
+}
+.project .name{
+    display: flex;
+justify-content: space-between
+}
+.n2{
+    text-align: center;
+    width: 300px;
+    padding: 10px 0px;
+    font-size: larger;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.proj{
+display: flex;
+justify-content: space-between
+}
+.proj1,.proj2,.proj3{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.proj1{
+    background-image: url(/img/code.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.proj1 button,.proj2 button,.proj3 button{
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: -25%;
+    left: 35%;
+    border: none;
+}
+.proj2{
+    background-image: url(/img/shop.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.proj3{
+    background-image: url(/img/todo.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.proj1:hover,.proj2:hover,.proj3:hover{
+    opacity: 0.4;
+}
+.proj1:hover button,.proj2:hover button,.proj3:hover button{
+    /* display: inline; */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    border: none;
+}
+
+
+
+
+
+
+
+.ed{
+    background-color: beige;
+    margin: -10px;
+}
+.ed h1{
+    color: orange;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1cm;
+    padding-top: 30px;
+    margin-bottom: -30px;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px;
+    padding-bottom:60px ;
+}
+.edu div{
+    width: 300px;
+    /* height: 300px; */
+    background-color: white;
+    margin: 30px 0px 60px;
+}
+.immg{
+    display: flex;
+    justify-content: space-between;
+}
+.immg img{
+    width: 150px;
+}
+.immg .i1 {
+   position: relative;
+   left: 60px;
+   top: 85px;
+}
+.immg .i2{
+    position: absolute;
+     left: 400px;
+     padding: 85px ;
+}
+.immg .i3{ 
+     position: absolute;
+     padding: 85px;
+     left: 825px;
+}
+.loc{
+    display: flex;
+}
+.e1 h4,.e2 h4,.e3 h4{
+    color: orange; 
+    text-align: center;
+    margin-top: 80px;
+}
+.e1 h2,.e2 h2, .e3 h2{
+        color: black; 
+        font-weight: bold;
+        text-align: center;
+    }
+    .e1 i ,.e2 i{
+        color: orange; 
+        align-items: center;
+        font-size: small;
+        margin: -10px 100px;
+    }
+    .e3 i{
+        color: orange; 
+        align-items: center;
+        font-size: small;
+        margin: -10px 130px;
+    }
+
+
+
+
+
+
+
+
+
+    .skill{
+        margin: 0px 100px 150px;
+    }
+    .skil h2{
+        color: orange;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1cm;
+        margin-top: 80px;
+    }
+    .d1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .d1 i{
+        color: gray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .con1{
+        background-color: beige;
+    }
+    .con1 h1{
+        color: orange;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1cm;
+        margin-top: 80px;
+        padding: 100px 0px 40px;
+    }
+    .contact1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    input{
+        padding: 7px;
+        margin: 10px;
+        border: none;
+        box-shadow: 2px 3px 3px rgb(31, 26, 26);
+    }
+    input:focus{
+        outline: none;
+    }
+    .subb{
+        width: 375px;
+    }
+    textarea{
+        padding: 7px;
+        margin: 10px;
+        border: none;
+        box-shadow: 2px 3px 3px rgb(31, 26, 26);
+    }
+    textarea:focus{
+        /* text-decoration: none; */
+        outline: none;
+    }
+    .btn{
+        background-color:orange;
+        width: 390px;
+        padding: 15px;
+        color: white;
+        font-size: 20px;
+    }
+    .tt{
+        padding-bottom: 100px;
+    }
+    .tt div{
+    padding: 9px;
+    }
+    .tt .name1{
+    font-weight: bolder;
+    font-size: 30px;
+    /* margin-top: 10px; */
+    }
+    .tt .cc{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+
+
+
+    footer{
+        margin: 50px 100px 10px;
+        text-align: center;
+    }
